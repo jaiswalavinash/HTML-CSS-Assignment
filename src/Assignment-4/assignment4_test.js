@@ -14,7 +14,7 @@
   var quixote = require("../../vendor/quixote.js");
 
   // Define a test suite using Mocha's standard `define` function.
-  describe("Assignment-4", function () {
+  describe.only("Assignment-4", function () {
     // Variables used by our tests. They're populated in the `before()` and `beforeEach()` functions.
     var frame; // The Quixote test frame.
     var container, frameDom; // The figure element inside the media object. (The icon.)
@@ -66,7 +66,7 @@
     });
     it("header navigation should have three list items", function () {
       assert.isTrue(
-          frame.toDomElement().contentDocument.querySelectorAll("header nav ul")[0].childElementCount=== 3
+        frame.toDomElement().contentDocument.querySelectorAll("header nav ul")[0].childElementCount === 3
       );
     });
     it("container should have nav bar for page", function () {
@@ -76,7 +76,7 @@
         )
       );
     });
-   
+
     it("Page should have three article tags with class name- 'three-col'", function () {
       assert.isTrue(
         frame.toDomElement().contentDocument.getElementsByClassName("three-col")

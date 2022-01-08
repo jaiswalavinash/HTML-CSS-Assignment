@@ -5,3 +5,145 @@
 width: 100%;
 height: 100%;
 }
+body {
+    font-family: 'Raleway', sans-serif;
+  }
+.page-head{
+      border: 2px solid;
+      width: 100%;
+      height: 100px;
+      background-color: rgb(220,220,220);
+}   
+header img{
+    height: 40%;
+    margin-left: 40px;
+    margin-top: 25px;
+    border-radius: 50%;
+}
+header ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 20px 30px; 
+}
+header ul{
+    float: right;
+}
+.main{
+    background-image: url("https://wallpaperaccess.com/full/4742991.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 600px;      
+}
+section h2{
+    text-align: center;
+    margin-top: 0px;
+    color: white;
+    padding: 40px;
+}
+.center{
+    width: 200px;
+    border-radius: 50%;
+    margin: 5% 43%;
+    border: 1px solid blue; 
+}
+.btn{
+margin-left: 47%;
+height: 50px;
+width: 80px;
+border: 2px solid blue;
+}
+.row{
+    width: 100%;
+    /* height: 100%; */
+    display: inline-block;
+}
+#col1{
+    width: 9.5%;
+    display: inline-block;
+    margin-left: 10%;
+}
+#col1 h3{
+    color: blue;
+    padding-left: 15%;
+}
+#col1 img{
+    width: 140px;
+    border-radius: 50%;
+}
+#col1 .btn{
+    margin-left: 20%;
+}
+#col2{
+    width: 9%;
+    display: inline-block;
+    margin-left: 25%;
+
+}
+#col2 h3{
+    color: blue;
+    padding-left: 17%;
+}
+#col2 img{
+    width: 140px;
+    border-radius: 50%;
+}
+#col2 .btn{
+    margin-left: 20%;
+}
+#col3{
+    width: 10%;
+    display: inline-block;
+    margin-right: 10%;
+}
+#col3{
+    float: right;
+}
+#col3 h3{
+    color: blue;
+    padding-left: 20%;
+}
+#col3 img{
+    width: 140px;
+    border-radius: 50%;
+}
+#col3 .btn{
+    margin-left: 20%;
+}
+.buttom-content{
+    display: inline-block;
+    width: 100%;
+    border: 2px solid;
+    height: 140px;
+    background-color: rgb(90, 90, 200);
+   
+}
+.buttom-content .twiter{
+    border-radius: 50%;
+    width: 38px;
+    margin-left: 43%;
+}
+.insta{
+    border-radius: 50%;
+    width: 2%;
+    margin-left: 1%;
+    
+}
+.facebook{
+    border-radius: 50%;
+    width: 2%;
+    margin-left: 1%;
+}
+.linkedin{
+    border-radius: 50%;
+    width: 2%;
+    margin-left: 1%;
+}
+.txt{
+    margin-top: 1%;
+    margin-left: 43%;
+    
+}
+footer h5{
+    color: white;
+
+}
