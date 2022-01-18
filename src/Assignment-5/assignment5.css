@@ -1,39 +1,60 @@
 /* Our CSS file. */
-
-
-.container, .content {
+html,body,.container, .content {
 width: 100%;
 height: 100%;
 }
-body{
-    background-color: gray;
-}
-.card{
-    width: 90%;
-    height: 45%;
+#container{
+    background-color: #eee;
     display: flex;
-    margin: 40px;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card{
+    display: flex;
+    flex: 0 0 auto;
+    background-color: #fff;
+    border-radius: 5px;
+    align-items: center;
+    margin: 40px 20px;
+    max-width: 750px;
+    box-shadow: 1px 5px 7px 0px rgba(0, 0, 0, 0.5);
+    
 }
 .img{
-    background-color: rgb(150, 255, 150);
-    width: 70%;
+    background-color: rgba(0, 255,0, 0.5);
+    
+}
+.img1{
+    width: 300px;
+    margin-left: -50px;
+    width: 400px;
+    position: relative;
+    bottom: 30px;
 }
 .para{
-    background-color: white;
-
+    padding: 0 0 0 100px;
 }
-h1{
-    margin-left: 8%;
+.btn{
+    background: #8dc26f;
+    color: white;
+    padding: 0 25px;
+    letter-spacing: 1px;
+    height: 50px;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 55px;
 }
-p{
-    margin-left: 8%;
+button:hover{
+    background-color: #70a751;
 }
-button{
-    border-radius: 20px;
-    background-color: rgb(150, 255, 150);
-    width: 9%;
-    height: 9%;
-    margin-left: 50%;
-}#pic{
-    width: 98%;
+@media(max-width:790px){
+    #container{
+        overflow-x: hidden;
+    }
+    .card{
+        flex-direction: column;
+    }
 }
